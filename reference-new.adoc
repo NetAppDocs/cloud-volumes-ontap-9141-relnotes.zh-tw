@@ -1,0 +1,94 @@
+---
+sidebar: sidebar 
+permalink: reference-new.html 
+keywords: 'what"s new, new, features, release notes, enhancements' 
+summary: Cloud Volumes ONTAP 9.14.1 包含新的增強功能。 
+---
+= Cloud Volumes ONTAP 9.14.1 的新功能
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Cloud Volumes ONTAP 9.14.1 包含新的增強功能。
+
+最新版的BlueXP也會提供其他功能和增強功能。請參閱 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html["BlueXP版本說明"^] 以取得詳細資料。
+
+
+
+== 9.14.1 P2 （ 2024 年 4 月 18 日）
+
+所有雲端供應商現在均可使用 Cloud Volumes ONTAP 9.14.1 P2 修補程式。BlueXP會提示您將現有系統升級至此修補程式版本。
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.14.1P2["檢視 P2 修補程式中修正的錯誤清單"^] （需登入 NetApp 支援網站）。
+
+
+
+== 9.14.1 P1 （ 2024 年 4 月 1 日）
+
+所有雲端供應商現在均可使用 Cloud Volumes ONTAP 9.14.1 P1 修補程式。BlueXP會提示您將現有系統升級至此修補程式版本。
+
+https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.14.1P1["檢視 P1 修補程式中修正的錯誤清單"^] （需登入 NetApp 支援網站）。
+
+
+
+== 9.14.1 GA （ 2024 年 3 月 5 日）
+
+Cloud Volumes ONTAP 9.14.1 一般可用度版本現已在 AWS 、 Azure 和 Google Cloud 中推出。
+
+
+
+== 9.14.1 RC1 （ 2023 年 12 月 6 日）
+
+Cloud Volumes ONTAP 9.14.1 的 Release Candidate 1 現已在 AWS 、 Azure 和 Google Cloud 中推出。
+
+
+
+== 升級附註
+
+請閱讀這些附註、深入瞭解升級至此版本的相關資訊。
+
+
+
+=== 如何升級
+
+必須從BlueXP完成升級。Cloud Volumes ONTAP您不應 Cloud Volumes ONTAP 使用 System Manager 或 CLI 來升級功能。這樣做可能會影響系統穩定性。
+
+link:http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-cloud.html["瞭解如何在BlueXP通知您時進行升級"^]。
+
+
+
+=== 支援的升級途徑
+
+您可以從 9.13.1 和 9.14.0 版本升級至 Cloud Volumes ONTAP 9.14.1 。BlueXP會提示您將合格Cloud Volumes ONTAP 的更新版升級至此版本。
+
+
+
+=== 所需版本的Connector
+
+BlueXP Connector 必須執行 3.9.27 版或更新版本、才能部署新的 Cloud Volumes ONTAP 9.14.1 系統、並將現有系統升級至 9.14.1 。
+
+
+TIP: 連接器的自動升級預設為啟用、因此您應該執行最新版本。
+
+
+
+=== 停機
+
+* 單一節點系統的升級可讓系統離線長達25分鐘、在此期間I/O會中斷。
+* 升級 HA 配對不中斷營運、而且 I/O 不中斷。在此不中斷營運的升級程序中、會同時升級每個節點、以繼續為用戶端提供 I/O 服務。
+
+
+
+
+=== 不再支援c4、m4和r4執行個體
+
+在AWS中Cloud Volumes ONTAP 、不再支援C4、M4和R4 EC2執行個體類型。如果現有的系統執行於c4、m4或r4執行個體類型、則必須變更為c5、m5或R5執行個體系列中的執行個體類型。您必須變更執行個體類型、才能升級至此版本。
+
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-change-ec2-instance.html["瞭解如何變更EC2執行個體類型Cloud Volumes ONTAP 以供使用"^]。
+
+請參閱 link:https://mysupport.netapp.com/info/communications/ECMLP2880231.html["NetApp支援"^] 以深入瞭解這些執行個體類型的終止可用度和支援。
