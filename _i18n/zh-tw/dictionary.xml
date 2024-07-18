@@ -769,4 +769,8 @@ HA 配對：節點中的 18 個 ^1^</block>
   <block id="837904c1ddf0b7876964700c1d566165" category="paragraph">所有雲端供應商現在都可以使用 Cloud Volumes ONTAP 9.14.1 P4 修補程式。BlueXP會提示您將現有系統升級至此修補程式版本。</block>
   <block id="cae74b75cb879fa6011c4bc1e9acafed" category="inline-link">檢視 P4 修補程式中修正的錯誤清單</block>
   <block id="dc033fa9dc958e07ea76e8e2612bbe5a" category="paragraph"><block ref="3204441b14795bb980671e5731eb2ab7" category="inline-link-rx"></block> （需要登入 NetApp 支援網站）。</block>
+  <block id="681af8c647abc40504ff9a9c72a2cd96" category="section-title">9.14.1 P6 （ 2024 年 7 月 18 日）</block>
+  <block id="94a5465e8be6f23cc0181f68d678ef00" category="paragraph">所有雲端供應商現在都可以使用 Cloud Volumes ONTAP 9.14.1 P6 修補程式。BlueXP會提示您將現有系統升級至此修補程式版本。</block>
+  <block id="4d90d21642c7222312363da000d7409f" category="inline-link">檢視 P6 修補程式中修正的錯誤清單</block>
+  <block id="bc5568aec017ad2e5cf0a5e90091f4c6" category="paragraph"><block ref="c6ea3d1829515f9d3bb15b101f831fb6" category="inline-link-rx"></block> （需要登入 NetApp 支援網站）。</block>
 </blocks>
