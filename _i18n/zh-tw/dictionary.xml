@@ -536,7 +536,6 @@
   <block id="98ade5346ada08656e0c7b517b695d0f" category="paragraph">每Cloud Volumes ONTAP 個支援不同EC2執行個體類型的支援。為了方便起見、下表顯示每種支援執行個體類型的vCPU、RAM和頻寬。<block ref="7fe5ce03f92ccda8dcb0aa0fab836a1f" category="inline-link-rx"></block>。</block>
   <block id="afea36f2c9999a231c58b7e9dcf3b16e" category="paragraph">可在保留或隨需EC2執行個體上執行。Cloud Volumes ONTAP不支援使用其他執行個體類型的解決方案。</block>
   <block id="c7d741925ef81824617c6a2975104e27" category="inline-link">NetApp 技術報告 4383 ： Cloud Volumes ONTAP 運用應用程式工作負載、將 Amazon Web Services 中的功能特性化</block>
-  <block id="5070622feb6e4e88eeee7983bad01de6" category="paragraph">下表所示的頻寬與每個執行個體類型的AWS記錄限制相符。這些限制並不完全符合Cloud Volumes ONTAP 本公司所能提供的功能。如需預期效能、請參閱<block ref="21181a62240b2a52719451cc8d855312" category="inline-link-rx"></block>。</block>
   <block id="4a7243646d30fc1e81eca2df9826cc03" category="cell">支援的執行個體</block>
   <block id="5d56dbd20d9ee1ab8a722ff12e331953" category="cell">VCPU</block>
   <block id="e53619c1fe611a51eeeb8d148ba6e532" category="cell">RAM</block>
@@ -773,4 +772,5 @@ HA 配對：節點中的 18 個 ^1^</block>
   <block id="94a5465e8be6f23cc0181f68d678ef00" category="paragraph">所有雲端供應商現在都可以使用 Cloud Volumes ONTAP 9.14.1 P6 修補程式。BlueXP會提示您將現有系統升級至此修補程式版本。</block>
   <block id="4d90d21642c7222312363da000d7409f" category="inline-link">檢視 P6 修補程式中修正的錯誤清單</block>
   <block id="bc5568aec017ad2e5cf0a5e90091f4c6" category="paragraph"><block ref="c6ea3d1829515f9d3bb15b101f831fb6" category="inline-link-rx"></block> （需要登入 NetApp 支援網站）。</block>
+  <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">下表所示的頻寬與每個執行個體類型的AWS記錄限制相符。這些限制並不完全符合Cloud Volumes ONTAP 本公司所能提供的功能。如需預期效能、請<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>參閱。</block>
 </blocks>
