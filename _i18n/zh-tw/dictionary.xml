@@ -738,7 +738,6 @@ HA 配對：節點中的 18 個 ^1^</block>
   <block id="d75c8a72363ede5ded8979310421b255" category="paragraph">如果您善用<block ref="e066b15eeebd4e6d571fd7dd588f94f7" category="inline-link-rx"></block> 在您部署Cloud Volumes ONTAP 的VPC中、您需要實作DNS記錄、將流量轉送至所需的<block ref="e6b10532507a1a1747789a49cf51c637" category="inline-link-rx"></block>。</block>
   <block id="406156e49006d700786c581646d94504" category="paragraph">Private Service Connect目前不支援將Cloud Volumes ONTAP 資料從功能區分層至Google Cloud Storage儲存庫。</block>
   <block id="fd03e656adaf90d76d9f033d590bdd69" category="sidebar">這些版本資訊說明 Cloud Volumes ONTAP 9.14.1 的新功能、限制和已知問題。</block>
-  <block id="3f93d29b3f8dc957c8b9ced853857b76" category="sidebar">Cloud Volumes ONTAP 9.14.1 版本資訊</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="8efc36afc2e7202a9c9bda00b8e8a75d" category="sidebar">授權總覽</block>
@@ -785,4 +784,8 @@ HA 配對：節點中的 18 個 ^1^</block>
   <block id="4b99ccc66c896711e2667fd1c7cc5a70" category="inline-link">檢視 P9 修補程式中修正的錯誤清單</block>
   <block id="fb8ea0e4d51a0d0169a671ee181b9aaf" category="paragraph"><block ref="2b0276e874ba4b91c515b88422e5a6f6" category="inline-link-rx"></block> （需要登入 NetApp 支援網站）。</block>
   <block id="f1786ba391739a1a365a117fb19de2ea" category="sidebar">Cloud Volumes ONTAP 9.14.1 版本資訊</block>
+  <block id="dcfb927b1f6b73f1bfaae1d56a4950bf" category="section-title">9.14.1 第 10 頁（ 2025 年 1 月 20 日）</block>
+  <block id="78571fb34d82664f7485b0ab5ac3147e" category="paragraph">所有雲端供應商現在都可以使用 Cloud Volumes ONTAP 9.14.1 P10 修補程式。BlueXP會提示您將現有系統升級至此修補程式版本。</block>
+  <block id="7c8ff86b41b72d8fa99855f2e2c45139" category="inline-link">檢視 P10 修補程式中修正的錯誤清單</block>
+  <block id="59bb8174658546e00a502e06d274f287" category="paragraph"><block ref="fe45cd9e277846676a08a57720dc0074" category="inline-link-rx"></block> （需要登入 NetApp 支援網站）。</block>
 </blocks>
