@@ -41,4 +41,4 @@ Cloud Volumes ONTAP 不支援部署中的 Azure 虛擬機器（ VM ）延伸功�
 
 某些地區不支援HA配對。
 
-https://cloud.netapp.com/cloud-volumes-global-regions["檢視支援的Azure地區清單"^]。
+https://bluexp.netapp.com/cloud-volumes-global-regions["檢視支援的Azure地區清單"^]。
