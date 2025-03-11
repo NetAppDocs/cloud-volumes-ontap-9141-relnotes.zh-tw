@@ -790,4 +790,8 @@ HA 配對：節點中的 18 個 ^1^</block>
   <block id="f0de068c81c765820aca0fa8fe017396" category="paragraph">如需 Azure 區域支援<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>、請參閱。</block>
   <block id="9b986795dc6a434c7339bfecbd5e5c8b" category="paragraph">如需 Google Cloud 地區支援<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>、請參閱。</block>
   <block id="d798d4963d0ac509a1bda5483d9b9a52" category="paragraph"><block ref="5a94f18247116693735ff13d8eeaa964" category="inline-link-rx"></block>。</block>
+  <block id="6fa1e8d083b895fd6fbe5cfc2f6aa31c" category="section-title">9.14.1 第 11 頁（ 2025 年 3 月 10 日）</block>
+  <block id="0ca5637d58b3091aee2c805b574d9b5b" category="paragraph">所有雲端供應商現在都可以使用 Cloud Volumes ONTAP 9.14.1 P11 修補程式。BlueXP會提示您將現有系統升級至此修補程式版本。</block>
+  <block id="4d51ff14f4691186785e9ce841b8db7c" category="inline-link">檢視 P11 修補程式中修正的錯誤清單</block>
+  <block id="e388af5805a8702dc322460fd1cdc0c7" category="paragraph"><block ref="629011122d078f715e821ec2982a064c" category="inline-link-rx"></block> （需要登入 NetApp 支援網站）。</block>
 </blocks>
