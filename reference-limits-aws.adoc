@@ -18,6 +18,7 @@ summary: AWS中的儲存組態設有限制、可提供可靠的作業。Cloud Vo
 
 
 
+[[maximum-system-capacity-by-license]]
 == 依授權提供的最大系統容量
 
 整個系統的最大容量Cloud Volumes ONTAP 取決於其授權。最大系統容量包括磁碟型儲存設備、以及用於資料分層的物件式儲存設備。
@@ -56,6 +57,7 @@ NetApp不支援超過系統容量限制。如果您達到授權容量上限、�
 
 
 
+[[aggregate-limits]]
 == Aggregate限制
 
 Cloud Volumes ONTAP 使用 EBS 磁碟區做為磁碟、並將其分組為 _Aggregate 。Aggregate可為磁碟區提供儲存設備。
@@ -95,6 +97,7 @@ HA 配對：節點中的 18 個 ^1^
 
 
 
+[[disk-and-tiering-limits-by-ec2-instance]]
 == EC2執行個體的磁碟和分層限制
 
 容量限制會因您使用的EC2執行個體類型系列、以及您使用的是單一節點系統或HA配對而有所不同。
@@ -111,6 +114,7 @@ HA 配對：節點中的 18 個 ^1^
 
 
 
+[[limits-for-capacity-based-licensing]]
 === 容量型授權限制
 
 下列磁碟限制適用於Cloud Volumes ONTAP 使用容量型授權套件的各個系統。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["深入瞭Cloud Volumes ONTAP 解功能多樣的授權選項"^]
@@ -159,6 +163,7 @@ HA 配對：節點中的 18 個 ^1^
 
 
 
+[[limits-for-node-based-licensing]]
 === 節點型授權限制
 
 下列磁碟限制適用於Cloud Volumes ONTAP 使用節點型授權的支援系統、這是前一代授權模式、可讓您依Cloud Volumes ONTAP 節點授權使用。現有客戶仍可使用節點型授權。
@@ -263,6 +268,7 @@ AWS Secret Cloud 和 Top Secret Cloud 地區支援從 Cloud Volumes ONTAP 9.12.1
 
 
 
+[[storage-vm-limits]]
 == 儲存VM限制
 
 有些組態可讓您建立更多的儲存VM（SVM）以Cloud Volumes ONTAP 供支援。
@@ -307,6 +313,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-aws.
 
 
 
+[[storage-vm-limit-by-ec2-instance-type]]
 === 依EC2執行個體類型限制儲存VM
 
 建立額外的儲存VM時、您需要將私有IP位址分配給連接埠e0a。下表列出每個介面的私有IP數量上限、Cloud Volumes ONTAP 以及部署完使用費率後、連接埠e0a上可用的IP位址數量。可用IP位址的數量、直接影響該組態的儲存VM數量上限。
@@ -408,6 +415,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-aws.
 
 
 
+[[file-and-volume-limits]]
 == 檔案與Volume限制
 
 [cols="22,22,56"]
@@ -450,6 +458,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-aws.
 
 
 
+[[iscsi-storage-limits]]
 == iSCSI儲存限制
 
 [cols="3*"]

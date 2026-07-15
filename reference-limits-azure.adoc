@@ -18,6 +18,7 @@ summary: 在Azure中、由於儲存組態限制、因此可提供可靠的作業
 
 
 
+[[maximum-system-capacity-by-license]]
 == 依授權提供的最大系統容量
 
 整個系統的最大容量Cloud Volumes ONTAP 取決於其授權。最大系統容量包括磁碟型儲存設備、以及用於資料分層的物件式儲存設備。
@@ -51,6 +52,7 @@ NetApp不支援超過系統容量限制。如果您達到授權容量上限、�
 
 
 
+[[aggregate-limits]]
 == Aggregate限制
 
 使用Azure儲存設備做為磁碟、並將其分組為_aggregate。Cloud Volumes ONTAPAggregate可為磁碟區提供儲存設備。
@@ -83,6 +85,7 @@ NetApp不支援超過系統容量限制。如果您達到授權容量上限、�
 
 
 
+[[disk-and-tiering-limits-by-vm-size]]
 == 磁碟和分層限制、依VM大小而定
 
 容量限制會因您使用的VM大小、以及您使用的是單一節點系統或HA配對而有所不同。
@@ -101,6 +104,7 @@ NetApp不支援超過系統容量限制。如果您達到授權容量上限、�
 
 
 
+[[limits-for-capacity-based-licensing]]
 === 容量型授權限制
 
 下列磁碟限制適用於Cloud Volumes ONTAP 使用容量型授權套件的各個系統。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["深入瞭Cloud Volumes ONTAP 解功能多樣的授權選項"^]
@@ -328,6 +332,7 @@ NetApp不支援超過系統容量限制。如果您達到授權容量上限、�
 |===
 
 
+[[limits-for-node-based-licensing]]
 === 節點型授權限制
 
 下列磁碟限制適用於Cloud Volumes ONTAP 使用節點型授權的支援系統、這是前一代授權模式、可讓您依Cloud Volumes ONTAP 節點授權使用。現有客戶仍可使用節點型授權。
@@ -615,6 +620,7 @@ HA配對有兩種組態類型：頁面blob和多個可用度區域。每個組�
 ====
 
 
+[[storage-vm-limits]]
 == 儲存VM限制
 
 有些組態可讓您建立更多的儲存VM（SVM）以Cloud Volumes ONTAP 供支援。
@@ -660,6 +666,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azur
 
 
 
+[[file-and-volume-limits]]
 == 檔案與Volume限制
 
 [cols="22,22,56"]
@@ -702,6 +709,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-managing-svms-azur
 
 
 
+[[iscsi-storage-limits]]
 == iSCSI儲存限制
 
 [cols="3*"]
