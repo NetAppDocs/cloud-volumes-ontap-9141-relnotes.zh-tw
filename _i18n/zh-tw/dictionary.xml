@@ -806,4 +806,9 @@ HA 配對：節點中的 18 個 ^1^</block>
   <block id="f028fcd0284047124594722c75555ce3" category="section-title">9.14.1 GA（2024 年 3 月 05 日）</block>
   <block id="0674c14b73a943e34d8e05afbc0eb71f" category="section-title">9.14.1 RC1（2023 年 12 月 6 日）</block>
   <block id="fb83bdf454bf964031306f46d967b051" category="paragraph">下表所示的頻寬與每種執行個體類型的 AWS 文件化限制相符。這些限制與 Cloud Volumes ONTAP 所能提供的效能並不完全一致。有關預期效能，請參閱<block ref="f9e25e1e3616de01564541c204317f8f" category="inline-link-rx"></block>。</block>
+  <block id="729d43cc6f405fe428c5d6d4f1d4c972" category="section-title">9.14.1 P18HF1（2026年11月2日）</block>
+  <block id="be2d95064c219a51c8b3208a552fa94c" category="paragraph">適用於所有雲端供應商的 Cloud Volumes ONTAP 9.14.1 P18HF1 修補程式現已發布。此修補程式與 ONTAP 9.14.1 Hotfix 相容。</block>
+  <block id="8ad3eb5eca42a4379abc9f1c9a2f829a" category="paragraph">對於您的 Cloud Volumes ONTAP 系統，控制台可能會提示您升級到此 Hotfix。但是，此 Hotfix 僅在控制台代理程式版本為 4.12.0 或更新版本時才支援。如果控制台代理程式版本低於 4.12.0，請忽略此提示。</block>
+  <block id="08853958e0db62fd50058fd45b355d7a" category="inline-link-macro">Console 代理 4.12.0</block>
+  <block id="8e8b20b71032c4ee10ed609d1fc74995" category="paragraph"><block ref="8e8b20b71032c4ee10ed609d1fc74995" category="inline-link-macro-rx"></block></block>
 </blocks>
